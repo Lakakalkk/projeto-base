@@ -1,0 +1,22 @@
+body{
+    background-color: blue;
+}
+.conteiner{
+    display: flex;
+    background-color: bisque;
+    /* height: 600px; */
+    gap: 10px 30px;
+     /* justify-content: center; */
+    align-items:center ;
+    flex-wrap: wrap;
+    
+
+}
+.item{
+    /* width: 200px; */
+    height: 200px;
+    background-color: yellow;
+}
+.item-3{
+flex-grow: 1;
+}
